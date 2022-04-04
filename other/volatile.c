@@ -16,8 +16,8 @@
  * https://stackoverflow.com/questions/71716095/how-to-change-the-value-of-a-variable-without-the-compiler-knowing/71716449#71716449
  *
  * @note
- * gcc other/volatile.c -O0 -lpthread  && ./a.out
- * gcc other/volatile.c -O3 -lpthread  && ./a.out
+ * gcc other/volatile.c -o out/a.out -O0 -lpthread  && out/a.out
+ * gcc other/volatile.c -o out/a.out -O3 -lpthread  && out/a.out
  */
 
 #include <pthread.h>
